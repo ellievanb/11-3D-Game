@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipeCorner.obj-4789ee842b2cc2d87371f012ffa4daa3.mesh"
+
+[deps]
+
+files=[ "res://.import/pipeCorner.obj-4789ee842b2cc2d87371f012ffa4daa3.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/pipeCorner.obj"
+dest_files=[ "res://.import/pipeCorner.obj-4789ee842b2cc2d87371f012ffa4daa3.mesh", "res://.import/pipeCorner.obj-4789ee842b2cc2d87371f012ffa4daa3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

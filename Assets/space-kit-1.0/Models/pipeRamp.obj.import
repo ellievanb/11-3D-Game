@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipeRamp.obj-9a1d6ce6d19eef7aa85b9cbc128f2ee0.mesh"
+
+[deps]
+
+files=[ "res://.import/pipeRamp.obj-9a1d6ce6d19eef7aa85b9cbc128f2ee0.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/pipeRamp.obj"
+dest_files=[ "res://.import/pipeRamp.obj-9a1d6ce6d19eef7aa85b9cbc128f2ee0.mesh", "res://.import/pipeRamp.obj-9a1d6ce6d19eef7aa85b9cbc128f2ee0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/satelliteDish.obj-efbf0a06f2d77d766a285781be7ed424.mesh"
+
+[deps]
+
+files=[ "res://.import/satelliteDish.obj-efbf0a06f2d77d766a285781be7ed424.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/satelliteDish.obj"
+dest_files=[ "res://.import/satelliteDish.obj-efbf0a06f2d77d766a285781be7ed424.mesh", "res://.import/satelliteDish.obj-efbf0a06f2d77d766a285781be7ed424.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

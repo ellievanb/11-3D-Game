@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/consoleScreen.obj-28470a780f1f8c5fee6ab11413e63512.mesh"
+
+[deps]
+
+files=[ "res://.import/consoleScreen.obj-28470a780f1f8c5fee6ab11413e63512.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/consoleScreen.obj"
+dest_files=[ "res://.import/consoleScreen.obj-28470a780f1f8c5fee6ab11413e63512.mesh", "res://.import/consoleScreen.obj-28470a780f1f8c5fee6ab11413e63512.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

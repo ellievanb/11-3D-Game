@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/metalFenceDouble.obj-5f95a6a35ddf79a161e9b2e78fa28d01.mesh"
+
+[deps]
+
+files=[ "res://.import/metalFenceDouble.obj-5f95a6a35ddf79a161e9b2e78fa28d01.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/metalFenceDouble.obj"
+dest_files=[ "res://.import/metalFenceDouble.obj-5f95a6a35ddf79a161e9b2e78fa28d01.mesh", "res://.import/metalFenceDouble.obj-5f95a6a35ddf79a161e9b2e78fa28d01.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

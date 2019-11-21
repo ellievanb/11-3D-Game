@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockEnd.obj-a060b2fba9aade037b42b13495be6b4c.mesh"
+
+[deps]
+
+files=[ "res://.import/blockEnd.obj-a060b2fba9aade037b42b13495be6b4c.mesh" ]
+
+source_file="res://Assets/kenney_platformerkit/Models/OBJ format/blockEnd.obj"
+dest_files=[ "res://.import/blockEnd.obj-a060b2fba9aade037b42b13495be6b4c.mesh", "res://.import/blockEnd.obj-a060b2fba9aade037b42b13495be6b4c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

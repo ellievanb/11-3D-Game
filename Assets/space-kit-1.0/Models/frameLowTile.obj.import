@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/frameLowTile.obj-29ec11b9953bf3f546d1ce84e8a8110a.mesh"
+
+[deps]
+
+files=[ "res://.import/frameLowTile.obj-29ec11b9953bf3f546d1ce84e8a8110a.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/frameLowTile.obj"
+dest_files=[ "res://.import/frameLowTile.obj-29ec11b9953bf3f546d1ce84e8a8110a.mesh", "res://.import/frameLowTile.obj-29ec11b9953bf3f546d1ce84e8a8110a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

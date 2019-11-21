@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipeStandStraightLinerEnd.obj-9a9cbdc6b8bca419da53be29d3e6e8ce.mesh"
+
+[deps]
+
+files=[ "res://.import/pipeStandStraightLinerEnd.obj-9a9cbdc6b8bca419da53be29d3e6e8ce.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/pipeStandStraightLinerEnd.obj"
+dest_files=[ "res://.import/pipeStandStraightLinerEnd.obj-9a9cbdc6b8bca419da53be29d3e6e8ce.mesh", "res://.import/pipeStandStraightLinerEnd.obj-9a9cbdc6b8bca419da53be29d3e6e8ce.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

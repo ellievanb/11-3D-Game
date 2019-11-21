@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/metalStructureCross.obj-94dbaab9cfffc70ac13c0c7f7eac2a56.mesh"
+
+[deps]
+
+files=[ "res://.import/metalStructureCross.obj-94dbaab9cfffc70ac13c0c7f7eac2a56.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/metalStructureCross.obj"
+dest_files=[ "res://.import/metalStructureCross.obj-94dbaab9cfffc70ac13c0c7f7eac2a56.mesh", "res://.import/metalStructureCross.obj-94dbaab9cfffc70ac13c0c7f7eac2a56.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

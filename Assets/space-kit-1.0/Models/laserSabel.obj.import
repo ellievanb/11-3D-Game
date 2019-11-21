@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/laserSabel.obj-3cfe02838eac534b5493894d73c3e2af.mesh"
+
+[deps]
+
+files=[ "res://.import/laserSabel.obj-3cfe02838eac534b5493894d73c3e2af.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/laserSabel.obj"
+dest_files=[ "res://.import/laserSabel.obj-3cfe02838eac534b5493894d73c3e2af.mesh", "res://.import/laserSabel.obj-3cfe02838eac534b5493894d73c3e2af.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

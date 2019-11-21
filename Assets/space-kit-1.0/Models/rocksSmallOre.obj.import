@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocksSmallOre.obj-c1b0aba2fb7cdc14c7cc2f494cd396f6.mesh"
+
+[deps]
+
+files=[ "res://.import/rocksSmallOre.obj-c1b0aba2fb7cdc14c7cc2f494cd396f6.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/rocksSmallOre.obj"
+dest_files=[ "res://.import/rocksSmallOre.obj-c1b0aba2fb7cdc14c7cc2f494cd396f6.mesh", "res://.import/rocksSmallOre.obj-c1b0aba2fb7cdc14c7cc2f494cd396f6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

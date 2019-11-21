@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/buildingCorridorOpen.obj-b65625733600f66854605313f1634fd5.mesh"
+
+[deps]
+
+files=[ "res://.import/buildingCorridorOpen.obj-b65625733600f66854605313f1634fd5.mesh" ]
+
+source_file="res://Assets/space-kit-1.0/Models/buildingCorridorOpen.obj"
+dest_files=[ "res://.import/buildingCorridorOpen.obj-b65625733600f66854605313f1634fd5.mesh", "res://.import/buildingCorridorOpen.obj-b65625733600f66854605313f1634fd5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockDirt.obj-a91da757ef36e5dba68930ba25e2a6ba.mesh"
+
+[deps]
+
+files=[ "res://.import/blockDirt.obj-a91da757ef36e5dba68930ba25e2a6ba.mesh" ]
+
+source_file="res://Assets/kenney_platformerkit/Models/OBJ format/blockDirt.obj"
+dest_files=[ "res://.import/blockDirt.obj-a91da757ef36e5dba68930ba25e2a6ba.mesh", "res://.import/blockDirt.obj-a91da757ef36e5dba68930ba25e2a6ba.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
