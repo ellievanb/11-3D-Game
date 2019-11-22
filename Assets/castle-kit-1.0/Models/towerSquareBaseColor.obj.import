@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/towerSquareBaseColor.obj-723203da8b4dc4f1b187aadf9a1fe134.mesh"
+
+[deps]
+
+files=[ "res://.import/towerSquareBaseColor.obj-723203da8b4dc4f1b187aadf9a1fe134.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/towerSquareBaseColor.obj"
+dest_files=[ "res://.import/towerSquareBaseColor.obj-723203da8b4dc4f1b187aadf9a1fe134.mesh", "res://.import/towerSquareBaseColor.obj-723203da8b4dc4f1b187aadf9a1fe134.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

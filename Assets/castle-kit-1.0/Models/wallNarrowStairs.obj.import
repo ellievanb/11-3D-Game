@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallNarrowStairs.obj-e7c54db3e7ee71ef4f734b47a1a6095e.mesh"
+
+[deps]
+
+files=[ "res://.import/wallNarrowStairs.obj-e7c54db3e7ee71ef4f734b47a1a6095e.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/wallNarrowStairs.obj"
+dest_files=[ "res://.import/wallNarrowStairs.obj-e7c54db3e7ee71ef4f734b47a1a6095e.mesh", "res://.import/wallNarrowStairs.obj-e7c54db3e7ee71ef4f734b47a1a6095e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

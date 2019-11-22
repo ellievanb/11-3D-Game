@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/towerTop.obj-c7e1c78c514dcf412e8a2e7dde849b03.mesh"
+
+[deps]
+
+files=[ "res://.import/towerTop.obj-c7e1c78c514dcf412e8a2e7dde849b03.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/towerTop.obj"
+dest_files=[ "res://.import/towerTop.obj-c7e1c78c514dcf412e8a2e7dde849b03.mesh", "res://.import/towerTop.obj-c7e1c78c514dcf412e8a2e7dde849b03.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

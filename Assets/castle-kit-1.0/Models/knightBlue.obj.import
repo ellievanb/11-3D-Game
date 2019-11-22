@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/knightBlue.obj-3dacbbc6ceb24d4b5a9bae4a9c3752a5.mesh"
+
+[deps]
+
+files=[ "res://.import/knightBlue.obj-3dacbbc6ceb24d4b5a9bae4a9c3752a5.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/knightBlue.obj"
+dest_files=[ "res://.import/knightBlue.obj-3dacbbc6ceb24d4b5a9bae4a9c3752a5.mesh", "res://.import/knightBlue.obj-3dacbbc6ceb24d4b5a9bae4a9c3752a5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

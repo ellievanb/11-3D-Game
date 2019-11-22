@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/siegeBallista.obj-f57d452e1ba1b52bdb13c474494f6ed3.mesh"
+
+[deps]
+
+files=[ "res://.import/siegeBallista.obj-f57d452e1ba1b52bdb13c474494f6ed3.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/siegeBallista.obj"
+dest_files=[ "res://.import/siegeBallista.obj-f57d452e1ba1b52bdb13c474494f6ed3.mesh", "res://.import/siegeBallista.obj-f57d452e1ba1b52bdb13c474494f6ed3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

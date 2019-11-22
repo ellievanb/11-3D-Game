@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallNarrowWood.obj-e97b06953bd629e6dd62fae77cd1f783.mesh"
+
+[deps]
+
+files=[ "res://.import/wallNarrowWood.obj-e97b06953bd629e6dd62fae77cd1f783.mesh" ]
+
+source_file="res://Assets/castle-kit-1.0/Models/wallNarrowWood.obj"
+dest_files=[ "res://.import/wallNarrowWood.obj-e97b06953bd629e6dd62fae77cd1f783.mesh", "res://.import/wallNarrowWood.obj-e97b06953bd629e6dd62fae77cd1f783.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
