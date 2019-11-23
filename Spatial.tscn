@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Scenes/FPSCharacter.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scripts/FPSCharacter.gd" type="Script" id=2]
@@ -12,6 +12,10 @@
 [ext_resource path="res://Scenes/Pipe.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Scenes/Flag.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/GoldCoin.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Assets/coinBronze_icon.png" type="Texture" id=13]
+[ext_resource path="res://Assets/heart_SW.png" type="Texture" id=14]
+[ext_resource path="res://Assets/OstrichSansInline-Regular.otf" type="DynamicFontData" id=15]
+[ext_resource path="res://Scripts/Score.gd" type="Script" id=16]
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -25,6 +29,10 @@ points = PoolVector3Array( -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1, 1, 1,
 
 [sub_resource type="SpatialMaterial" id=5]
 albedo_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 62
+font_data = ExtResource( 15 )
 
 [node name="Spatial" type="Spatial"]
 
@@ -110,16 +118,13 @@ transform = Transform( 0.352183, 0, -0.755257, 0, 0.666667, 0, 0.755257, 0, 0.35
 transform = Transform( 0.352183, 0, -0.755257, 0, 0.666667, 0, 0.755257, 0, 0.352183, 12, 1, 3.5 )
 
 [node name="MeteorRound7" parent="Stairs" instance=ExtResource( 5 )]
-transform = Transform( 0.0348623, 0, -0.398478, 0, 0.667, 0, 0.398478, 0, 0.0348623, 14.5, 1, 6.75 )
+transform = Transform( 0.398478, 0, -0.0348623, 0, 0.667, 0, 0.0348623, 0, 0.398478, 13.75, 1, 5.5 )
 
 [node name="MeteorRound8" parent="Stairs" instance=ExtResource( 5 )]
-transform = Transform( 0.0348623, 0, -0.398478, 0, 0.667, 0, 0.398478, 0, 0.0348623, 15, 1, 5.5 )
+transform = Transform( 0.398478, 0, -0.0348623, 0, 0.667, 0, 0.0348623, 0, 0.398478, 14.9, 1, 4.8 )
 
 [node name="MeteorRound9" parent="Stairs" instance=ExtResource( 5 )]
-transform = Transform( 0.0348623, 0, -0.398478, 0, 0.667, 0, 0.398478, 0, 0.0348623, 14.25, 1, 4.25 )
-
-[node name="MeteorRound10" parent="Stairs" instance=ExtResource( 5 )]
-transform = Transform( 0.0348623, 0, -0.398478, 0, 0.667, 0, 0.398478, 0, 0.0348623, 14.75, 1, 3 )
+transform = Transform( 0.398478, 0, -0.0348623, 0, 0.667, 0, 0.0348623, 0, 0.398478, 16, 1, 4.25 )
 
 [node name="MetalTileEnd9" parent="Stairs" instance=ExtResource( 6 )]
 transform = Transform( -7.28522e-09, 0, -0.333333, 0, 0.333333, 0, 0.166667, 0, -1.45704e-08, 13.45, 1.33333, 1.83333 )
@@ -614,18 +619,136 @@ shape = SubResource( 3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -48, 5, -40 )
 
 [node name="Coins" type="Spatial" parent="."]
+editor/display_folded = true
 
 [node name="GoldCoin" parent="Coins" instance=ExtResource( 12 )]
 transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 6, 1.75, 0 )
 
 [node name="GoldCoin2" parent="Coins" instance=ExtResource( 12 )]
-transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 9, 1.75, 0 )
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 9.5, 1.75, 0 )
 
 [node name="GoldCoin3" parent="Coins" instance=ExtResource( 12 )]
-transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 12, 1.75, 0 )
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 13, 1.75, 0 )
 
 [node name="GoldCoin4" parent="Coins" instance=ExtResource( 12 )]
-transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 19, 2.25, 0 )
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 24.5, 2.25, 4 )
 
 [node name="GoldCoin5" parent="Coins" instance=ExtResource( 12 )]
-transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 24.5, 2.25, 4 )
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 31, 2.25, 3 )
+
+[node name="GoldCoin6" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 31, 4, -3 )
+
+[node name="GoldCoin7" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 31, 2.25, -9 )
+
+[node name="GoldCoin8" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 31, 4, -24 )
+
+[node name="GoldCoin9" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 34, 4.25, -30 )
+
+[node name="GoldCoin10" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( -8.74228e-08, 0, 2, 0, 2, 0, -2, 0, -8.74228e-08, 34.25, 4, -36 )
+
+[node name="GoldCoin11" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 1.41421, 0, -1.41421, 0, 2, 0, 1.41421, 0, 1.41421, 34, 4, -40.25 )
+
+[node name="GoldCoin12" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 30, 6.5, -40.25 )
+
+[node name="GoldCoin13" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 26, 4, -40.25 )
+
+[node name="GoldCoin14" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 16.5, 5, -41.25 )
+
+[node name="GoldCoin15" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 14.25, 5, -44.75 )
+
+[node name="GoldCoin16" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 12.75, 5, -48 )
+
+[node name="GoldCoin17" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 4, 4.5, -40.25 )
+
+[node name="GoldCoin18" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -6, 4.5, -40.25 )
+
+[node name="GoldCoin19" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -13, 6.5, -42 )
+
+[node name="GoldCoin20" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -15, 6.5, -38.5 )
+
+[node name="GoldCoin22" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -17.5, 7, -41.75 )
+
+[node name="GoldCoin21" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -19.5, 7, -38.5 )
+
+[node name="GoldCoin23" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -22.25, 7.25, -41.75 )
+
+[node name="GoldCoin24" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -27, 6, -40 )
+
+[node name="GoldCoin25" parent="Coins" instance=ExtResource( 12 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -35, 5, -40 )
+
+[node name="Control" type="Control" parent="."]
+editor/display_folded = true
+margin_right = 1024.0
+margin_bottom = 70.0
+
+[node name="Sprite" type="Sprite" parent="Control"]
+position = Vector2( 180, 30 )
+texture = ExtResource( 13 )
+
+[node name="Sprite2" type="Sprite" parent="Control"]
+position = Vector2( 28, 33 )
+texture = ExtResource( 14 )
+
+[node name="Lives" type="Label" parent="Control"]
+margin_left = 60.0
+margin_top = -19.0
+margin_right = 150.0
+margin_bottom = 58.0
+rect_pivot_offset = Vector2( 70, 59 )
+custom_fonts/font = SubResource( 6 )
+text = "3"
+
+[node name="Score" type="Label" parent="Control"]
+margin_left = 211.0
+margin_top = -19.0
+margin_right = 301.0
+margin_bottom = 58.0
+rect_pivot_offset = Vector2( 70, 59 )
+custom_fonts/font = SubResource( 6 )
+text = "3"
+script = ExtResource( 16 )
+[connection signal="CoinCollected" from="Coins/GoldCoin" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin2" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin3" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin4" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin5" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin6" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin7" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin8" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin9" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin10" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin11" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin12" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin13" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin14" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin15" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin16" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin17" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin18" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin19" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin20" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin22" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin21" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin23" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin24" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
+[connection signal="CoinCollected" from="Coins/GoldCoin25" to="Control/Score" method="_on_GoldCoin_CoinCollected"]
