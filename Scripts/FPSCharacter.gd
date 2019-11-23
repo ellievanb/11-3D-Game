@@ -9,6 +9,14 @@ var mouse_sensitivity = 0.002 # radians/pixel
 var velocity = Vector3()
 var jump = false
 
+signal lives
+signal score
+
+func _ready():
+ var WorldNode = get_node("/root/Spatial")
+ connect("score", WorldNode, "increase_score")
+ connect("lives", WorldNode, "decrease_lives")
+
 func get_input():
 	jump = false
 	if Input.is_action_just_pressed("jump"):
