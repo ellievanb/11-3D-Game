@@ -693,6 +693,7 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -27, 6, -40 )
 transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -35, 5, -40 )
 
 [node name="Control" type="Control" parent="."]
+editor/display_folded = true
 margin_right = 1024.0
 margin_bottom = 70.0
 
