@@ -12,10 +12,7 @@ var jump = false
 signal lives
 signal score
 
-func _ready():
- var WorldNode = get_node("/root/Spatial")
- connect("score", WorldNode, "increase_score")
- connect("lives", WorldNode, "decrease_lives")
+var _initial_position
 
 func get_input():
 	jump = false
@@ -34,7 +31,7 @@ func get_input():
 	return input_dir
 	
 func _unhandled_input(event):
-	if event is InputEventMouseMotion:
+	if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 		rotate_y(-event.relative.x * mouse_sensitivity)
 		$Pivot.rotate_x(-event.relative.y * mouse_sensitivity)
 		$Pivot.rotation.x = clamp($Pivot.rotation.x, -200, 200)
@@ -48,3 +45,6 @@ func _physics_process(delta):
 	velocity = move_and_slide(velocity, Vector3.UP, true)
 	if jump and is_on_floor():
 		velocity.y = jump_speed
+
+func _on_Ground_input_event(camera, event, click_position, click_normal, shape_idx):
+	get_tree().reload_current_scene()
